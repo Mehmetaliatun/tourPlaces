@@ -1,6 +1,7 @@
 import "./Main.scss";
 import { data } from "../../helper/data";
 import Card from "./Card";
+
 const Main = () => {
   return (
     <div className="card-container">
@@ -10,4 +11,5 @@ const Main = () => {
     </div>
   );
 };
+
 export default Main;
